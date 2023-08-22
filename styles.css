@@ -3,6 +3,7 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+ 
 }
 
 #div2 {
@@ -60,4 +61,10 @@ p {
 
 button {
   margin: 20px;
+}
+.image.dragging {
+  opacity: 0.6;
+}
+.image.dragging :where(.details, i) {
+  opacity: 0;
 }
